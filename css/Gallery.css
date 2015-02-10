@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+	background: rgb(169,219,128); /* Old browsers */
+
+	background: -moz-linear-gradient(left,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(169,219,128,1)), color-stop(100%,rgba(150,197,111,1))); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(left,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(left,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(left,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* IE10+ */
+	
+	background: linear-gradient(to right,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=1 ); /* IE6-9 */	
+}
+.panel-footer{
+	margin-top:2.5%;
+	text-align:center;
+	margin-top:11%;
+}
+.container{
+	  font-family: 'Slabo 27px', serif;
+}
+.navbar{
+	  background:#EAEFDF;
+	  margin-top:0.2%;
+	  font-family:'Slabo 27px', serif;
+	  font-size:20px;
+}
